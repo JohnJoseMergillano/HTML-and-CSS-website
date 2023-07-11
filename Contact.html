@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World of Games</title>
+  <style>
+
+    body {
+      background-color: #0e0d0d;
+      line-height: 1.5;
+      padding: 20px;
+      color:white;
+      margin-top: 10px;
+      
+    }
+
+    header {
+    font-family: Arial, sans-serif;
+      background-color: #4e4e4e;
+      color: #faf6f6;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h2 {
+        margin-top: 150px;
+        color: #faf6f6;
+    }
+
+    .styled-image{
+        width: auto;
+        height: 700px;
+        border: 1px solid rgb(253, 253, 253);
+        margin-top: 30px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block; 
+    }
+
+    nav {
+      background-color: #686767;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fdfafa;
+      margin: 0 10px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #fcfbfb;
+      margin-bottom: 20px;
+      font-family:georgia,garamond,serif;
+      font-size:32px;
+      font-style:italic; :helvetica;
+      background-image: url("images/black.jpg");
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+      padding: 15px;
+    }
+
+    h3{
+      color: #fcfbfb;
+      text-align: center;
+      margin-top:50px;
+      font-size: 30px;
+    }
+
+    p {
+      color: #f7f7f7;
+      margin-bottom: 10px;
+    }
+
+    .welcome {
+        color:rgb(252, 252, 252);
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    textarea {
+      margin-bottom: 10px;
+      padding: 5px;
+      width: 100%;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button {
+      padding: 8px 15px;
+      background-color: #333;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: #f7f6f6;
+      text-align: center;
+      padding: 10px;
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+    }
+
+ 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(253, 253, 253);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin:70px 440px;
+  border:3px solid white;
+  border-radius: 5px;
+  background-color: #797777;
+  padding: 20px;
+  max-width: 700px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact us</h1>
+  </header>
+
+  <nav>
+    <a href="landingpage.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <h3 class="allabout">Please kindly fill up this form.</h3>
+
+  <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+
+  <main>
+    <section>
+        <p class="welcome">Word of Games serves as an online platform dedicated to providing information, resources, and entertainment 
+          related to various types of games. Here's an explanation of what such a website may entail:</p1>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 World of Games. All rights reserved.</p>
+  </footer>
+</body>
+</html>
